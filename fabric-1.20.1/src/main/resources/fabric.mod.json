@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "cleanroom_dynamiclights",
+  "version": "${version}",
+  "name": "Dynamic Lights CleanRoom",
+  "description": "Client-side handheld and entity luminance with zero server blockstate churn.",
+  "authors": [
+    "CleanRoom Team"
+  ],
+  "contact": {
+    "homepage": "https://github.com/cleanroom/minecraft_mod_ports"
+  },
+  "license": "MIT",
+  "icon": "assets/cleanroom_dynamiclights/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.cleanroom.dynamiclights.fabric.DynamicLightsFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.20 <=1.21.3",
+    "java": ">=17"
+  }
+}
